@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "modernapparel:item/zipped_bomber_jacket_0",
+    "layer1": "modernapparel:item/zipped_bomber_jacket_1"
+  }
+}
