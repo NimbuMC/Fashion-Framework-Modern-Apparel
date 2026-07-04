@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "modernapparel:item/modern_style_schematic"
+    "layer0": "modernapparel:item/plain_pants"
   }
 }

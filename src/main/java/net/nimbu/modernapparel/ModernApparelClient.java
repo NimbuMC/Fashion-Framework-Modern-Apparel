@@ -51,6 +51,24 @@ public class ModernApparelClient {
                                             new DyedItemColor(clothingItem.getDefaultColor(), false)
                                     ).rgb();}}
                         return 0xFFFFFFFF;},
+                    ModItems.ZIPPED_BOMBER_JACKET.get()
+            );
+            minecraft.getItemColors().register((stack, tintIndex) -> {
+                        if (tintIndex == 0) { if(stack.getItem() instanceof ClothingItem clothingItem) {
+                            return 0xFF000000 | //ORs in the alpha value
+                                    stack.getOrDefault(DataComponents.DYED_COLOR,
+                                            new DyedItemColor(clothingItem.getDefaultColor(), false)
+                                    ).rgb();}}
+                        return 0xFFFFFFFF;},
+                    ModItems.FLANNEL_SHIRT.get()
+            );
+            minecraft.getItemColors().register((stack, tintIndex) -> {
+                        if (tintIndex == 0) { if(stack.getItem() instanceof ClothingItem clothingItem) {
+                            return 0xFF000000 | //ORs in the alpha value
+                                    stack.getOrDefault(DataComponents.DYED_COLOR,
+                                            new DyedItemColor(clothingItem.getDefaultColor(), false)
+                                    ).rgb();}}
+                        return 0xFFFFFFFF;},
                     ModItems.SWEATPANTS.get()
             );
             minecraft.getItemColors().register((stack, tintIndex) -> {

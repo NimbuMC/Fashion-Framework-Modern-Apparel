@@ -24,23 +24,31 @@ public class ModItemTagProvider extends ItemTagsProvider {
 
         this.tag(ItemTags.HEAD_ARMOR)
                 .add(ModItems.LOW_SUNGLASSES.get())
-                .add(ModItems.SUNGLASSES.get());
+                .add(ModItems.SUNGLASSES.get())
+        ;
 
         this.tag(ItemTags.CHEST_ARMOR)
                 .add(ModItems.HOODIE.get())
-                .add(ModItems.BOMBER_JACKET.get());
+                .add(ModItems.BOMBER_JACKET.get())
+                .add(ModItems.ZIPPED_BOMBER_JACKET.get())
+                .add(ModItems.FLANNEL_SHIRT.get())
+        ;
 
         this.tag(ItemTags.LEG_ARMOR)
                 .add(ModItems.SWEATPANTS.get())
-                .add(ModItems.PLAIN_PANTS.get());
+                .add(ModItems.PLAIN_PANTS.get())
+        ;
 
         this.tag(ItemTags.FOOT_ARMOR)
-                .add(ModItems.SNEAKERS.get());
+                .add(ModItems.SNEAKERS.get())
+        ;
 
         //Only put clothes that use a nonempty second layer in here
         this.tag(ItemTags.DYEABLE)
                 .add(ModItems.HOODIE.get())
                 .add(ModItems.BOMBER_JACKET.get())
+                .add(ModItems.ZIPPED_BOMBER_JACKET.get())
+                .add(ModItems.FLANNEL_SHIRT.get())
                 .add(ModItems.SWEATPANTS.get())
                 .add(ModItems.PLAIN_PANTS.get())
                 .add(ModItems.SNEAKERS.get());
@@ -51,6 +59,8 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModItems.SUNGLASSES.get())
                 .add(ModItems.HOODIE.get())
                 .add(ModItems.BOMBER_JACKET.get())
+                .add(ModItems.ZIPPED_BOMBER_JACKET.get())
+                .add(ModItems.FLANNEL_SHIRT.get())
                 .add(ModItems.SWEATPANTS.get())
                 .add(ModItems.PLAIN_PANTS.get())
                 .add(ModItems.SNEAKERS.get());

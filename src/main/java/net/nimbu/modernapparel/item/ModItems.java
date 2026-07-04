@@ -28,6 +28,18 @@ public class ModItems {
                             .durability(ArmorItem.Type.CHESTPLATE.getDurability(10)),
                     0x5b2f0c));
 
+    public static final DeferredItem<Item> ZIPPED_BOMBER_JACKET = ITEMS.register("zipped_bomber_jacket",
+            () -> new ClothingItem(ModArmorMaterials.CLOTH_ARMOUR_MATERIAL, ArmorItem.Type.CHESTPLATE,
+                    new Item.Properties()
+                            .durability(ArmorItem.Type.CHESTPLATE.getDurability(10)),
+                    0x5b2f0c));
+
+    public static final DeferredItem<Item> FLANNEL_SHIRT = ITEMS.register("flannel_shirt",
+            () -> new ClothingItem(ModArmorMaterials.CLOTH_ARMOUR_MATERIAL, ArmorItem.Type.CHESTPLATE,
+                    new Item.Properties()
+                            .durability(ArmorItem.Type.CHESTPLATE.getDurability(10)),
+                    0xFFFFFF));
+
     public static final DeferredItem<Item> SWEATPANTS = ITEMS.register("sweatpants",
             () -> new ClothingItem(ModArmorMaterials.CLOTH_ARMOUR_MATERIAL, ArmorItem.Type.LEGGINGS,
                     new Item.Properties()
@@ -38,7 +50,7 @@ public class ModItems {
             () -> new ClothingItem(ModArmorMaterials.CLOTH_ARMOUR_MATERIAL, ArmorItem.Type.LEGGINGS,
                     new Item.Properties()
                             .durability(ArmorItem.Type.LEGGINGS.getDurability(10)),
-                    0x111111));
+                    0x666666));
 
     public static final DeferredItem<Item> SNEAKERS = ITEMS.register("sneakers",
             () -> new ClothingItem(ModArmorMaterials.CLOTH_ARMOUR_MATERIAL, ArmorItem.Type.BOOTS,
@@ -63,7 +75,9 @@ public class ModItems {
             () -> new StyleSchematicItem(new Item.Properties(),
                     List.of(ModItems.HOODIE.get(),
                             ModItems.BOMBER_JACKET.get(),
+                            ModItems.ZIPPED_BOMBER_JACKET.get(),
                             ModItems.SWEATPANTS.get(),
+                            ModItems.PLAIN_PANTS.get(),
                             ModItems.SNEAKERS.get(),
                             ModItems.SUNGLASSES.get(),
                             ModItems.LOW_SUNGLASSES.get()
