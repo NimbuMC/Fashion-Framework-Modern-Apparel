@@ -22,6 +22,12 @@ public class ModItems {
                             .durability(ArmorItem.Type.CHESTPLATE.getDurability(10)),
                     0x9999FF));
 
+    public static final DeferredItem<Item> ZIP_UP_HOODIE = ITEMS.register("zip_up_hoodie",
+            () -> new ClothingItem(ModArmorMaterials.CLOTH_ARMOUR_MATERIAL, ArmorItem.Type.CHESTPLATE,
+                    new Item.Properties()
+                            .durability(ArmorItem.Type.CHESTPLATE.getDurability(10)),
+                    0x50CC44));
+
     public static final DeferredItem<Item> BOMBER_JACKET = ITEMS.register("bomber_jacket",
             () -> new ClothingItem(ModArmorMaterials.CLOTH_ARMOUR_MATERIAL, ArmorItem.Type.CHESTPLATE,
                     new Item.Properties()
@@ -34,11 +40,17 @@ public class ModItems {
                             .durability(ArmorItem.Type.CHESTPLATE.getDurability(10)),
                     0x5b2f0c));
 
-    public static final DeferredItem<Item> FLANNEL_SHIRT = ITEMS.register("flannel_shirt",
+    public static final DeferredItem<Item> PLAIN_SHIRT = ITEMS.register("plain_shirt",
             () -> new ClothingItem(ModArmorMaterials.CLOTH_ARMOUR_MATERIAL, ArmorItem.Type.CHESTPLATE,
                     new Item.Properties()
                             .durability(ArmorItem.Type.CHESTPLATE.getDurability(10)),
                     0xFFFFFF));
+
+    public static final DeferredItem<Item> FLANNEL_SHIRT = ITEMS.register("flannel_shirt",
+            () -> new ClothingItem(ModArmorMaterials.CLOTH_ARMOUR_MATERIAL, ArmorItem.Type.CHESTPLATE,
+                    new Item.Properties()
+                            .durability(ArmorItem.Type.CHESTPLATE.getDurability(10)),
+                    0xAAAAFF));
 
     public static final DeferredItem<Item> SWEATPANTS = ITEMS.register("sweatpants",
             () -> new ClothingItem(ModArmorMaterials.CLOTH_ARMOUR_MATERIAL, ArmorItem.Type.LEGGINGS,
@@ -74,6 +86,9 @@ public class ModItems {
     public static final DeferredItem<Item> MODERN_CASUAL_STYLE_SCHEMATIC = ITEMS.register("modern_casual_style_schematic",
             () -> new StyleSchematicItem(new Item.Properties(),
                     List.of(ModItems.HOODIE.get(),
+                            ModItems.ZIP_UP_HOODIE.get(),
+                            ModItems.PLAIN_SHIRT.get(),
+                            ModItems.FLANNEL_SHIRT.get(),
                             ModItems.BOMBER_JACKET.get(),
                             ModItems.ZIPPED_BOMBER_JACKET.get(),
                             ModItems.SWEATPANTS.get(),

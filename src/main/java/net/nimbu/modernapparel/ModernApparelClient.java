@@ -42,6 +42,15 @@ public class ModernApparelClient {
                                             new DyedItemColor(clothingItem.getDefaultColor(), false)
                                     ).rgb();}}
                         return 0xFFFFFFFF;},
+                    ModItems.ZIP_UP_HOODIE.get()
+            );
+            minecraft.getItemColors().register((stack, tintIndex) -> {
+                        if (tintIndex == 0) { if(stack.getItem() instanceof ClothingItem clothingItem) {
+                            return 0xFF000000 | //ORs in the alpha value
+                                    stack.getOrDefault(DataComponents.DYED_COLOR,
+                                            new DyedItemColor(clothingItem.getDefaultColor(), false)
+                                    ).rgb();}}
+                        return 0xFFFFFFFF;},
                     ModItems.BOMBER_JACKET.get()
             );
             minecraft.getItemColors().register((stack, tintIndex) -> {
@@ -52,6 +61,15 @@ public class ModernApparelClient {
                                     ).rgb();}}
                         return 0xFFFFFFFF;},
                     ModItems.ZIPPED_BOMBER_JACKET.get()
+            );
+            minecraft.getItemColors().register((stack, tintIndex) -> {
+                        if (tintIndex == 0) { if(stack.getItem() instanceof ClothingItem clothingItem) {
+                            return 0xFF000000 | //ORs in the alpha value
+                                    stack.getOrDefault(DataComponents.DYED_COLOR,
+                                            new DyedItemColor(clothingItem.getDefaultColor(), false)
+                                    ).rgb();}}
+                        return 0xFFFFFFFF;},
+                    ModItems.PLAIN_SHIRT.get()
             );
             minecraft.getItemColors().register((stack, tintIndex) -> {
                         if (tintIndex == 0) { if(stack.getItem() instanceof ClothingItem clothingItem) {
