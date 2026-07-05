@@ -29,8 +29,10 @@ public class ModItemTagProvider extends ItemTagsProvider {
 
         this.tag(ItemTags.CHEST_ARMOR)
                 .add(ModItems.HOODIE.get())
+                .add(ModItems.ZIP_UP_HOODIE.get())
                 .add(ModItems.BOMBER_JACKET.get())
                 .add(ModItems.ZIPPED_BOMBER_JACKET.get())
+                .add(ModItems.PLAIN_SHIRT.get())
                 .add(ModItems.FLANNEL_SHIRT.get())
         ;
 
@@ -46,8 +48,10 @@ public class ModItemTagProvider extends ItemTagsProvider {
         //Only put clothes that use a nonempty second layer in here
         this.tag(ItemTags.DYEABLE)
                 .add(ModItems.HOODIE.get())
+                .add(ModItems.ZIP_UP_HOODIE.get())
                 .add(ModItems.BOMBER_JACKET.get())
                 .add(ModItems.ZIPPED_BOMBER_JACKET.get())
+                .add(ModItems.PLAIN_SHIRT.get())
                 .add(ModItems.FLANNEL_SHIRT.get())
                 .add(ModItems.SWEATPANTS.get())
                 .add(ModItems.PLAIN_PANTS.get())
@@ -58,8 +62,10 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModItems.LOW_SUNGLASSES.get())
                 .add(ModItems.SUNGLASSES.get())
                 .add(ModItems.HOODIE.get())
+                .add(ModItems.ZIP_UP_HOODIE.get())
                 .add(ModItems.BOMBER_JACKET.get())
                 .add(ModItems.ZIPPED_BOMBER_JACKET.get())
+                .add(ModItems.PLAIN_SHIRT.get())
                 .add(ModItems.FLANNEL_SHIRT.get())
                 .add(ModItems.SWEATPANTS.get())
                 .add(ModItems.PLAIN_PANTS.get())

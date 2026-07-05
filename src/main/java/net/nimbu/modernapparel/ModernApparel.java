@@ -50,6 +50,8 @@ public class ModernApparel {
         if (event.getTabKey().equals(FASHION_TAB)) {
             event.accept(ModItems.MODERN_CASUAL_STYLE_SCHEMATIC.get());
             event.accept(ModItems.HOODIE.get());
+            event.accept(ModItems.ZIP_UP_HOODIE.get());
+            event.accept(ModItems.FLANNEL_SHIRT.get());
             event.accept(ModItems.BOMBER_JACKET.get());
             event.accept(ModItems.ZIPPED_BOMBER_JACKET.get());
             event.accept(ModItems.SWEATPANTS.get());
