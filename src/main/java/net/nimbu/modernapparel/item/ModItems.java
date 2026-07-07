@@ -46,6 +46,12 @@ public class ModItems {
                             .durability(ArmorItem.Type.CHESTPLATE.getDurability(10)),
                     0xFFFFFF));
 
+    public static final DeferredItem<Item> SHIRT_AND_TIE = ITEMS.register("shirt_and_tie",
+            () -> new ClothingItem(ModArmorMaterials.CLOTH_ARMOUR_MATERIAL, ArmorItem.Type.CHESTPLATE,
+                    new Item.Properties()
+                            .durability(ArmorItem.Type.CHESTPLATE.getDurability(10)),
+                    0x000000));
+
     public static final DeferredItem<Item> FLANNEL_SHIRT = ITEMS.register("flannel_shirt",
             () -> new ClothingItem(ModArmorMaterials.CLOTH_ARMOUR_MATERIAL, ArmorItem.Type.CHESTPLATE,
                     new Item.Properties()
@@ -88,6 +94,7 @@ public class ModItems {
                     List.of(ModItems.HOODIE.get(),
                             ModItems.ZIP_UP_HOODIE.get(),
                             ModItems.PLAIN_SHIRT.get(),
+                            ModItems.SHIRT_AND_TIE.get(),
                             ModItems.FLANNEL_SHIRT.get(),
                             ModItems.BOMBER_JACKET.get(),
                             ModItems.ZIPPED_BOMBER_JACKET.get(),

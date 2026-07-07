@@ -33,6 +33,7 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModItems.BOMBER_JACKET.get())
                 .add(ModItems.ZIPPED_BOMBER_JACKET.get())
                 .add(ModItems.PLAIN_SHIRT.get())
+                .add(ModItems.SHIRT_AND_TIE.get())
                 .add(ModItems.FLANNEL_SHIRT.get())
         ;
 
@@ -52,6 +53,7 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModItems.BOMBER_JACKET.get())
                 .add(ModItems.ZIPPED_BOMBER_JACKET.get())
                 .add(ModItems.PLAIN_SHIRT.get())
+                .add(ModItems.SHIRT_AND_TIE.get())
                 .add(ModItems.FLANNEL_SHIRT.get())
                 .add(ModItems.SWEATPANTS.get())
                 .add(ModItems.PLAIN_PANTS.get())
@@ -66,6 +68,7 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModItems.BOMBER_JACKET.get())
                 .add(ModItems.ZIPPED_BOMBER_JACKET.get())
                 .add(ModItems.PLAIN_SHIRT.get())
+                .add(ModItems.SHIRT_AND_TIE.get())
                 .add(ModItems.FLANNEL_SHIRT.get())
                 .add(ModItems.SWEATPANTS.get())
                 .add(ModItems.PLAIN_PANTS.get())

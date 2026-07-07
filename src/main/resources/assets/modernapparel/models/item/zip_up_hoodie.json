@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "modernapparel:item/zip_up_hoodie_0",
+    "layer1": "modernapparel:item/zip_up_hoodie_1"
+  }
+}
