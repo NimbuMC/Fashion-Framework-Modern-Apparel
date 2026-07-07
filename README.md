@@ -1,1 +1,1 @@
-When publishing an addon to curseforge/modrinth, please name it "Fashion Framework: [Insert name]"
+Adds modern clothing to Fashion Framework.
